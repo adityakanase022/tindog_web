@@ -1,0 +1,144 @@
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.unique{
+    padding: 3% 15%;
+}
+h1{    
+    font-size: 3rem;
+    
+    padding-bottom: 2rem;
+  
+}
+.h11{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 1.5rem; */
+    font-weight: bold;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+.second{
+    padding-top: 4.5rem;
+}
+.nav-item{
+    padding:0 10px;
+}
+.nav-link{
+    font-size: 1.5rem;
+
+}
+.buttonmar{
+    margin: 5% 3% 5% 0;
+}
+.image-title{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+#features{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 7% 10%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;/*dosen't work for static position */
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 6%;
+}
+.h33{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* testimonials */
+#testimonials{
+    font-family: 'Montserrat', sans-serif;
+   
+   text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+}
+.h22{
+    font-weight: 700;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 7%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.pricing-header{
+    font-size: 3rem;
+}
+
+@media (max-width:993px){
+    #title{
+         text-align: center;
+    }
+    .image-title{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+   padding: 10% 10% 5% 10% ;
+}
+
+#footer{
+    text-align: center;
+    margin: 5%;
+}
+.co{
+    display: inline-block;
+    margin: 2% 2% 3% 2%;
+    right: 30%;
+    left: 30%;
+   
+}
